@@ -1,0 +1,1 @@
+window.forge = {}; window.forge.config = {"modules": {"inspector": {"version": "1.0"}, "tribr_multi_image_select": {"version": "exampleversion"}}};

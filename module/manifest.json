@@ -1,0 +1,6 @@
+{
+    "description": "Port of native plugin for multi image select.", 
+    "name": "tribr_multi_image_select", 
+    "platform_version": "v2.0.0", 
+    "version": "0.1"
+}
