@@ -37,7 +37,7 @@
 		// For use in Trigger.io tribr_multi_image_select plugin
 		// resources aren't in main bundle
 		overlayView = [[UIImageView alloc] initWithFrame:viewFrames];
-		[overlayView setImage:[UIImage imageNamed:@"tribr_multi_image_select.bundle/Overlay.tiff"]];
+		[overlayView setImage:[UIImage imageNamed:@"tribr_multi_image_select.bundle/Overlay"]];
 		[overlayView setHidden:YES];
 		[self addSubview:overlayView];
     }
