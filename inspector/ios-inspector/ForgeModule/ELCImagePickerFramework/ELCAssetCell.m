@@ -26,7 +26,9 @@
 	
 	for(UIView *view in [self subviews]) 
     {		
-		[view removeFromSuperview];
+		if ([view isKindOfClass:UIImageView.class]) {
+			[view removeFromSuperview];
+        	}
 	}
 	
 	self.rowAssets = _assets;
